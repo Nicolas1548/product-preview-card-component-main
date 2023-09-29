@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100&family=Montserrat:wght@100&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@100&family=Hanken+Grotesk:wght@100&family=Montserrat:wght@100&family=Titillium+Web&display=swap');
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(https://fonts.google.com/specimen/Fraunces);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://fonts.google.com/specimen/Montserrat)
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 200px;
+
+}
+
+img.image1 {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 450px;
+    width: 300px;
+}
+
+section {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    height: 450px;
+
+}
+
+section header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    padding-left: 35px;
+    color: hsla(228, 12%, 48%, 0.7);
+    margin-top: 30px;
+    margin-bottom: -12px;
+    font-weight: bolder;
+    font-weight: 500;
+}
+
+section header h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 25pt;
+    margin-left: 35px;
+    font-style: normal;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+section p {
+    margin-left: 35px;
+    color: hsla(228, 12%, 48%, 0.7);
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+.total {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.promocao {
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 25pt;
+
+}
+
+.preco {
+    color: hsla(228, 12%, 48%, 0.7);
+    font-size: 13px;
+    text-decoration: line-through;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.button {
+    border: 2px solid white;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    width: 200px;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+footer p {
+    text-align: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    float: inline-end;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -430px;
+
+}
